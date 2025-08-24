@@ -1,0 +1,40 @@
+{
+  "entryPoints": [
+    "./src/index.ts",
+    "./src/amm/index.ts",
+    "./src/dlmm/index.ts",
+    "./src/staking/index.ts"
+  ],
+  "out": "docs",
+  "exclude": [
+    "**/node_modules/**",
+    "**/test/**",
+    "**/dist/**",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "Core",
+    "AMM",
+    "DLMM", 
+    "Staking",
+    "Utilities",
+    "*"
+  ],
+  "defaultCategory": "Other",
+  "readme": "none",
+  "theme": "default",
+  "name": "Saros SDK API Reference",
+  "hideGenerator": true,
+  "plugin": [
+    "typedoc-plugin-markdown"
+  ],
+  "mdHideSources": true,
+  "mdSourceRepo": "https://github.com/saros-labs/saros-sdk",
+  "mdSourceBranch": "main"
+}

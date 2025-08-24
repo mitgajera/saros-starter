@@ -1,0 +1,74 @@
+{
+  "name": "saros-starter",
+  "version": "1.0.0",
+  "description": "A comprehensive starter kit for building on Saros Protocol with enhanced developer documentation",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node examples/amm-swap.ts",
+    "docs": "typedoc --options reference/typedoc.json",
+    "docs:serve": "npx serve reference/docs",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\"",
+    "example:amm-swap": "ts-node examples/amm-swap.ts",
+    "example:amm-liquidity": "ts-node examples/amm-add-liquidity.ts",
+    "example:amm-stake": "ts-node examples/amm-stake.ts",
+    "example:dlmm-quote": "ts-node examples/dlmm-quote-swap.ts",
+    "example:dlmm-liquidity": "ts-node examples/dlmm-add-liquidity.ts",
+    "setup:devnet": "ts-node scripts/setup-devnet.ts",
+    "setup:mainnet": "ts-node scripts/setup-mainnet.ts",
+    "validate:examples": "ts-node scripts/validate-examples.ts"
+  },
+  "keywords": [
+    "saros",
+    "defi",
+    "amm",
+    "dlmm",
+    "solana",
+    "liquidity",
+    "staking",
+    "trading",
+    "sdk",
+    "developer-tools"
+  ],
+  "author": "Saros Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@saros-finance/sdk": "^1.0.0",
+    "@saros-finance/dlmm-sdk": "^1.0.0",
+    "@solana/web3.js": "^1.87.0",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.34",
+    "@solana/wallet-adapter-wallets": "^0.19.23",
+    "bn.js": "^5.2.1",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/bn.js": "^5.1.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "typedoc": "^0.25.0",
+    "typedoc-plugin-markdown": "^3.15.0",
+    "serve": "^14.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saros-labs/saros-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/saros-labs/saros-starter/issues"
+  },
+  "homepage": "https://github.com/saros-labs/saros-starter#readme"
+}
