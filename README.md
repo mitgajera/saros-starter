@@ -98,18 +98,18 @@ npm run dev
 ## 📖 Learning Path
 
 ### 1. Start with AMM (Beginner)
-- [Quickstart Guide](guides/quickstart-amm.md) - Get up and running
-- [Swap Tutorial](guides/tutorial-swap.md) - Learn to trade tokens
-- [Liquidity Tutorial](guides/tutorial-liquidity.md) - Provide liquidity
-- [Staking Tutorial](guides/tutorial-stake.md) - Earn rewards
+- [Quickstart Guide](docs/guides/quickstart-amm.md) - Get up and running
+- [Swap Tutorial](docs/guides/tutorial-swap.md) - Learn to trade tokens
+- [Liquidity Tutorial](docs/guides/tutorial-liquidity.md) - Provide liquidity
+- [Staking Tutorial](docs/guides/tutorial-stake.md) - Earn rewards
 
 ### 2. Explore DLMM (Intermediate)
-- [DLMM Quickstart](dlmm/quickstart-dlmm.md) - Understand concentrated liquidity
-- [DLMM Swap Tutorial](dlmm/tutorial-dlmm-swap.md) - Advanced trading strategies
-- [DLMM Liquidity Tutorial](dlmm/tutorial-dlmm-liquidity.md) - Manage positions
+- [DLMM Quickstart](docs/dlmm/quickstart-dlmm.md) - Understand concentrated liquidity
+- [DLMM Swap Tutorial](docs/dlmm/tutorial-dlmm-swap.md) - Advanced trading strategies
+- [DLMM Liquidity Tutorial](docs/dlmm/tutorial-dlmm-liquidity.md) - Manage positions
 
 ### 3. Build with Rust (Advanced)
-- [Rust DLMM Quickstart](rust/quickstart-rust-dlmm.md) - High-performance development
+- [Rust DLMM Quickstart](docs/rust/quickstart-rust-dlmm.md) - High-performance development
 
 ## 🔧 Development
 
